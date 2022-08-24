@@ -1,0 +1,90 @@
+
+
+h1{
+    color: #1c6a56;
+    font-family: cursive;
+}
+
+body{
+    background-image: linear-gradient(90deg, #72d4aa, #3cef96, #28af6c);
+}
+
+a:link{
+    color: rgb(77, 10, 10);
+}
+
+a:visited{
+    color: rgb(77, 10, 10)
+}
+
+.menuSuperior{
+    background-color: #88e8bb;
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+    padding-left: 25px;
+}
+
+.paginas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.pagina{
+    background-color: #13985a;
+    opacity: 80%;
+    border-radius: 15px;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+}
+
+.projetos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.projeto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.corpoSobreMim{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sobreMim{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    align-items: center;
+    font-size: 2rem;
+    font-family: cursive;
+    color: #ffffff;
+    -webkit-text-stroke: 1px #1c6a56;
+}
+
+.sobreMim img{
+    padding: 10px;
+    border-radius: 80px;
+    border: 5px dotted #1c6a56;
+    margin-right: 50px;
+}
+
+.redes{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 10px;
+}
+
+.corpoInicial{
+    text-align: center;
+}
